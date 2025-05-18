@@ -9,5 +9,6 @@ public class TestingBaba {
 	public void launchUrl() {
 	
 		WebDriver driver=new ChromeDriver();
+		driver.get("https://testingbaba.com/old");
 	}
 }
